@@ -27,7 +27,7 @@ namespace TopDown {
 
         public override void OnUpdate(PlayerMovement playerMovement)
         {
-            _hasReleasedButton |= Input.GetButtonUp("Dash");
+            _hasReleasedButton |= PlayerInputManager.Instance.ReleaseDash;
 
             if (Time.time > _endTime)
             {
@@ -37,7 +37,7 @@ namespace TopDown {
 
         public override void OnFixedUpdate(PlayerMovement playerMovement)
         {
-            playerMovement.Rigidbody.velocity = playerMovement.rotation * _speed * Time.fixedDeltaTime * 100;
+            playerMovement.Rigidbody.velocity = PlayerInputManager.Instance.LastDirection * _speed * Time.fixedDeltaTime * 100;
         }
 
 
@@ -53,14 +53,13 @@ namespace TopDown {
         #region Transitions
         private void Transition(PlayerMovement playerMovement)
         {
-            if (Input.GetAxisRaw("Horizontal") != 0 || Input.GetAxisRaw("Vertical") != 0)
+            if (PlayerInputManager.Instance.HasMovementInput)
             {
                 if(_hasReleasedButton)
                 {
                     playerMovement.TransitionTo(_walkState);
                 } else
                 {
-                    Debug.Log("Sprint");
                     playerMovement.TransitionTo(_sprintState);
                 }
             } else

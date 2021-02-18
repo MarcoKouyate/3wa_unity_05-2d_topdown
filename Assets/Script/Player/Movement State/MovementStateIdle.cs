@@ -19,14 +19,12 @@ namespace TopDown {
 
         public override void OnUpdate(PlayerMovement playerMovement)
         {
-            _input = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-
-            if (_input.sqrMagnitude > 0)
+            if (PlayerInputManager.Instance.HasMovementInput)
             {
                 playerMovement.TransitionTo(_walkState);
             }
 
-            if (Input.GetButtonDown("Dash"))
+            if (PlayerInputManager.Instance.PressDash)
             {
                 playerMovement.TransitionTo(_dashState);
             }

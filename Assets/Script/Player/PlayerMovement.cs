@@ -46,7 +46,6 @@ namespace TopDown {
         private void Awake()
         {
             _rigidbody = GetComponent<Rigidbody2D>();
-            rotation = Vector2.up;
             SetMovementState(_startingState);
         }
 
@@ -71,7 +70,6 @@ namespace TopDown {
         #region Private Variables
         private MovementState _movementState;
         private Rigidbody2D _rigidbody;
-        public Vector2 rotation;
         #endregion
     }
 }

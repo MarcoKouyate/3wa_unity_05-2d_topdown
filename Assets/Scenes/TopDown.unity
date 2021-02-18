@@ -254,6 +254,7 @@ MonoBehaviour:
   _runningSpeed: 4
   _dashSpeed: 20
   _dashDuration: 0.1
+  _startingState: {fileID: 11400000, guid: 9f9a487db020b494d8dd10b67feb3ac7, type: 2}
   rotation: {x: 0, y: 0}
 --- !u!50 &1317072606
 Rigidbody2D:

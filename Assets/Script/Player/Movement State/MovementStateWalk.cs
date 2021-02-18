@@ -22,14 +22,7 @@ namespace TopDown {
         }
         public override void OnUpdate(PlayerMovement playerMovement)
         {
-            _input = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
-            
-            if(_input.sqrMagnitude > 0.1f)
-            {
-                playerMovement.rotation = _input.normalized;
-            }
-
-            if (Input.GetButtonDown("Dash"))
+            if (PlayerInputManager.Instance.PressDash)
             {
                 playerMovement.TransitionTo(_dashState);
             }
@@ -37,7 +30,7 @@ namespace TopDown {
 
         public override void OnFixedUpdate(PlayerMovement playerMovement)
         {
-            playerMovement.MoveTowardsDirection(_input, _speed);
+            playerMovement.MoveTowardsDirection(PlayerInputManager.Instance.Direction, _speed);
 
             if (playerMovement.Rigidbody.velocity.sqrMagnitude == 0)
             {
@@ -49,7 +42,6 @@ namespace TopDown {
 
         #region Private Variables
 
-        Vector2 _input;
         float _speed;
 
         #endregion
