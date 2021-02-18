@@ -27,10 +27,9 @@ namespace TopDown {
 
             if (Input.GetButtonDown("Dash"))
             {
-                _playerMovement.TransitionTo(new MovementStateSprint(_playerMovement));
+                _playerMovement.TransitionTo(new MovementStateDash(_playerMovement));
             }
         }
-
         #endregion
 
 
