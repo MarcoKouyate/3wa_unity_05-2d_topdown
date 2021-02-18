@@ -3,47 +3,55 @@ using System.Collections.Generic;
 using UnityEngine;
 
 namespace TopDown {
+    [CreateAssetMenu(fileName = "MovementState Sprint", menuName = "Custom/Player Movement State/Sprint")]
     public class MovementStateSprint : MovementState
     {
-        #region Constructor
-        public MovementStateSprint(PlayerMovement playerMovement) : base(playerMovement) { }
+
+        #region Show In Inspector
+        [SerializeField] private MovementState _walkState;
+        [SerializeField] private MovementState _idleState;
         #endregion
+
 
         #region State Cycle
 
-        public override void OnEnter()
+        public override bool OnEnter(PlayerMovement playerMovement)
         {
-            _playerMovement.state = MovementStateEnum.Sprint;
-            _speed = _playerMovement.RunningSpeed;
+            base.OnEnter(playerMovement);
+            playerMovement.state = MovementStateEnum.Sprint;
+            _speed = playerMovement.RunningSpeed;
+            return true;
         }
-        public override void OnUpdate()
+
+        public override void OnUpdate(PlayerMovement playerMovement)
         {
             _input = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
 
             if (_input.sqrMagnitude > 0)
             {
-                _playerMovement.rotation = _input.normalized;
+                playerMovement.rotation = _input.normalized;
             }
 
             if (Input.GetButtonUp("Dash"))
             {
-                _playerMovement.TransitionTo(new MovementStateWalk(_playerMovement));
+                if(playerMovement.Rigidbody.velocity.sqrMagnitude != 0)
+                {
+                    playerMovement.TransitionTo(_walkState);
+                } else
+                {
+                    playerMovement.TransitionTo(_idleState);
+                }
+
             }
         }
 
-        public override void OnFixedUpdate()
+        public override void OnFixedUpdate(PlayerMovement playerMovement)
         {
-            _playerMovement.MoveTowardsDirection(_input, _speed);
-
-            if (_playerMovement.Rigidbody.velocity.sqrMagnitude == 0)
-            {
-                _playerMovement.TransitionTo(new MovementStateIdle(_playerMovement));
-            }
+            playerMovement.MoveTowardsDirection(_input, _speed);
         }
-
-        public override void OnExit() { }
 
         #endregion
+
 
         #region Private Variables
 

@@ -3,44 +3,47 @@ using System.Collections.Generic;
 using UnityEngine;
 
 namespace TopDown {
+    [CreateAssetMenu(fileName = "MovementState Walk", menuName = "Custom/Player Movement State/Walk")]
     public class MovementStateWalk : MovementState
     {
-        #region Constructor
-        public MovementStateWalk(PlayerMovement playerMovement) : base(playerMovement){}
+        #region Show in Inspector
+        [SerializeField] private MovementState _dashState;
+        [SerializeField] private MovementState _idleState;
         #endregion
+
 
         #region State Cycle
 
-        public override void OnEnter() {
-            _playerMovement.state = MovementStateEnum.Walk;
-            _speed = _playerMovement.WalkingSpeed;
+        public override bool OnEnter(PlayerMovement playerMovement) {
+            base.OnEnter(playerMovement);
+            playerMovement.state = MovementStateEnum.Walk;
+            _speed = playerMovement.WalkingSpeed;
+            return true;
         }
-        public override void OnUpdate()
+        public override void OnUpdate(PlayerMovement playerMovement)
         {
             _input = new Vector2(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"));
             
             if(_input.sqrMagnitude > 0.1f)
             {
-                _playerMovement.rotation = _input.normalized;
+                playerMovement.rotation = _input.normalized;
             }
 
             if (Input.GetButtonDown("Dash"))
             {
-                _playerMovement.TransitionTo(new MovementStateDash(_playerMovement));
+                playerMovement.TransitionTo(_dashState);
             }
         }
 
-        public override void OnFixedUpdate()
+        public override void OnFixedUpdate(PlayerMovement playerMovement)
         {
-            _playerMovement.MoveTowardsDirection(_input, _speed);
+            playerMovement.MoveTowardsDirection(_input, _speed);
 
-            if (_playerMovement.Rigidbody.velocity.sqrMagnitude == 0)
+            if (playerMovement.Rigidbody.velocity.sqrMagnitude == 0)
             {
-                _playerMovement.TransitionTo(new MovementStateIdle(_playerMovement));
+                playerMovement.TransitionTo(_idleState);
             } 
         }
-
-        public override void OnExit() { }
 
         #endregion
 

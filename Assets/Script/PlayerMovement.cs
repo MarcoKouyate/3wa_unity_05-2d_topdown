@@ -11,6 +11,7 @@ namespace TopDown {
         [SerializeField] private float _runningSpeed;
         [SerializeField] private float _dashSpeed;
         [SerializeField] private float _dashDuration;
+        [SerializeField] MovementState _startingState;
 
         #endregion
 
@@ -29,14 +30,14 @@ namespace TopDown {
         #region State Machine
         public void TransitionTo(MovementState movementState)
         {
-            _movementState.OnExit();
+            _movementState.OnExit(this);
             SetMovementState(movementState);
         }
 
         private void SetMovementState(MovementState movementState)
         {
             _movementState = movementState;
-            movementState.OnEnter();
+            movementState.OnEnter(this);
         }
         #endregion
 
@@ -46,17 +47,17 @@ namespace TopDown {
         {
             _rigidbody = GetComponent<Rigidbody2D>();
             rotation = Vector2.up;
-            SetMovementState(new MovementStateIdle(this));
+            SetMovementState(_startingState);
         }
 
         private void Update()
         {
-            _movementState.OnUpdate();
+            _movementState.OnUpdate(this);
         }
 
         private void FixedUpdate()
         {
-            _movementState.OnFixedUpdate();
+            _movementState.OnFixedUpdate(this);
         }
         #endregion
 

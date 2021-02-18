@@ -1,22 +1,37 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace TopDown {
     public enum MovementStateEnum { None, Idle, Walk, Dash, Sprint };
+    public enum ExecutionStateEnum { None, Active, Completed, Terminated };
 
-    public abstract class MovementState 
+    public abstract class MovementState : ScriptableObject
     {
-        public MovementState(PlayerMovement playerMovement)
+
+        #region Show in Inspector
+        public ExecutionStateEnum executionState;
+        #endregion
+
+        #region State Cycle
+
+        public virtual void OnEnable()
         {
-            _playerMovement = playerMovement;
+            executionState = ExecutionStateEnum.None;
         }
 
-        public virtual void OnEnter(){}
-        public virtual void OnUpdate(){}
-        public virtual void OnFixedUpdate(){}
-        public virtual void OnExit(){}
+        public virtual bool OnEnter(PlayerMovement playerMovement) {
+            executionState = ExecutionStateEnum.Active;
+            return true; 
+        }
 
-        protected PlayerMovement _playerMovement;
+        public virtual void OnUpdate(PlayerMovement playerMovement) {}
+
+        public virtual void OnFixedUpdate(PlayerMovement playerMovement) {}
+
+        public virtual bool OnExit(PlayerMovement playerMovement) {
+            executionState = ExecutionStateEnum.Completed;
+            return true; 
+        }
+
+        #endregion
     }
 }

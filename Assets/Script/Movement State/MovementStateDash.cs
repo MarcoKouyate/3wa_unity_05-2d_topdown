@@ -1,61 +1,71 @@
 ﻿using UnityEngine;
 
 namespace TopDown {
+
+    [CreateAssetMenu(fileName = "MovementState Dash", menuName ="Custom/Player Movement State/Dash")]
     public class MovementStateDash : MovementState
     {
 
-        #region Constructor
-        public MovementStateDash(PlayerMovement playerMovement) : base(playerMovement) { }
+        #region Show In Inspector
+        [SerializeField] private MovementState _idleState;
+        [SerializeField] private MovementState _walkState;
+        [SerializeField] private MovementState _sprintState;
         #endregion
 
 
         #region State Cycle
-        public override void OnEnter()
+        public override bool OnEnter(PlayerMovement playerMovement)
         {
-            _playerMovement.state = MovementStateEnum.Dash;
-            _endTime = Time.time + _playerMovement.DashDuration;
-            _speed = _playerMovement.DashSpeed;
+            playerMovement.state = MovementStateEnum.Dash;
+            _endTime = Time.time + playerMovement.DashDuration;
+            _speed = playerMovement.DashSpeed;
+            _hasReleasedButton = false;
+
+            return true;
         }
 
 
-        public override void OnUpdate()
+        public override void OnUpdate(PlayerMovement playerMovement)
         {
             _hasReleasedButton |= Input.GetButtonUp("Dash");
 
             if (Time.time > _endTime)
             {
-                Transition();
+                Transition(playerMovement);
             }
         }
 
-        public override void OnFixedUpdate()
+        public override void OnFixedUpdate(PlayerMovement playerMovement)
         {
-            _playerMovement.Rigidbody.velocity = _playerMovement.rotation * _speed;
+            playerMovement.Rigidbody.velocity = playerMovement.rotation * _speed * Time.fixedDeltaTime * 100;
         }
 
 
-        public override void OnExit()
+        public override bool OnExit(PlayerMovement playerMovement)
         {
-            _playerMovement.Rigidbody.velocity = Vector2.zero;
+            base.OnExit(playerMovement);
+            playerMovement.Rigidbody.velocity = Vector2.zero;
+            return true;
         }
         #endregion
 
 
         #region Transitions
-        private void Transition()
+        private void Transition(PlayerMovement playerMovement)
         {
             if (Input.GetAxisRaw("Horizontal") != 0 || Input.GetAxisRaw("Vertical") != 0)
             {
                 if(_hasReleasedButton)
                 {
-                    _playerMovement.TransitionTo(new MovementStateWalk(_playerMovement));
+                    playerMovement.TransitionTo(_walkState);
                 } else
                 {
-                    _playerMovement.TransitionTo(new MovementStateSprint(_playerMovement));
+                    Debug.Log("Sprint");
+                    playerMovement.TransitionTo(_sprintState);
                 }
             } else
             {
-                _playerMovement.TransitionTo(new MovementStateIdle(_playerMovement));
+                playerMovement.TransitionTo(_idleState);
             }
         }
         #endregion
