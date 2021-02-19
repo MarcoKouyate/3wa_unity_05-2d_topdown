@@ -32,7 +32,7 @@ namespace TopDown {
 
         public void Dash()
         {
-            Move(_dashSpeed);
+            _velocity = PlayerInputManager.Instance.LastDirection * _dashSpeed;
         }
 
         public void Stop()

@@ -18,6 +18,7 @@ namespace TopDown {
         public override bool OnEnter(PlayerMovement playerMovement) {
             base.OnEnter(playerMovement);
             playerMovement.state = MovementStateEnum.Walk;
+            playerMovement.Animation.Walk();
             return true;
         }
 

@@ -19,6 +19,7 @@ namespace TopDown {
         {
             base.OnEnter(playerMovement);
             playerMovement.state = MovementStateEnum.Sprint;
+            playerMovement.Animation.Run();
             return true;
         }
 
@@ -26,6 +27,7 @@ namespace TopDown {
         {
 
             playerMovement.Controller.Run();
+            playerMovement.Animation.UpdateDirection();
 
             if (PlayerInputManager.Instance.ReleaseDash)
             {

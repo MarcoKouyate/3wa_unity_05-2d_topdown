@@ -148,150 +148,153 @@ TextureImporter:
     second: idle2_47
   - first:
       213: 114832869553252984
-    second: sprint_0
+    second: sprint_e_01
   - first:
       213: -8221778418512454872
-    second: sprint_1
+    second: sprint_e_02
   - first:
       213: -4148669128949075786
-    second: sprint_2
+    second: sprint_e_03
   - first:
       213: 2501013520148730404
-    second: sprint_3
+    second: sprint_e_04
   - first:
       213: -682676108601935202
-    second: sprint_4
+    second: sprint_e_05
   - first:
       213: 9003965417739030778
-    second: sprint_5
+    second: sprint_e_06
   - first:
       213: -7754041866916362460
-    second: sprint_6
+    second: sprint_n_01
   - first:
       213: -8762158162834032242
-    second: sprint_7
+    second: sprint_n_02
   - first:
       213: 582950483467967725
-    second: sprint_8
+    second: sprint_n_03
   - first:
       213: -7286863873009266629
-    second: sprint_9
+    second: sprint_n_04
   - first:
       213: -6365006267240882979
-    second: sprint_10
+    second: sprint_n_05
   - first:
       213: 4216325269731539348
-    second: sprint_11
+    second: sprint_n_06
   - first:
       213: -2664426130295715743
-    second: sprint_12
+    second: sprint_w_01
   - first:
       213: -8838188257077159699
-    second: sprint_13
+    second: sprint_w_02
   - first:
       213: 2008270433271651009
-    second: sprint_14
+    second: sprint_w_03
   - first:
       213: 3351545883688628970
-    second: sprint_15
+    second: sprint_w_04
   - first:
       213: 1710006211041442099
-    second: sprint_16
+    second: sprint_w_05
   - first:
       213: -292648026932738142
-    second: sprint_17
+    second: sprint_w_06
   - first:
       213: 9171938900100766465
-    second: sprint_18
+    second: sprint_s_01
   - first:
       213: -7162614529314221389
-    second: sprint_19
+    second: sprint_s_02
   - first:
       213: -168691176506454589
-    second: sprint_20
+    second: sprint_s_03
   - first:
       213: -7765753240085253592
-    second: sprint_21
+    second: sprint_s_04
   - first:
       213: -8522841564912968503
-    second: sprint_22
+    second: sprint_s_05
   - first:
       213: 5536592408315183764
-    second: sprint_23
+    second: sprint_s_06
   - first:
       213: -7282487271976205849
-    second: sprint_24
+    second: sprint_se_01
   - first:
       213: -8035529251050439630
-    second: sprint_25
+    second: sprint_se_02
   - first:
       213: -3960849628957741251
-    second: sprint_26
+    second: sprint_se_03
   - first:
       213: 2788449355365293712
-    second: sprint_27
+    second: sprint_se_04
   - first:
       213: 3976717940889775888
-    second: sprint_28
+    second: sprint_se_05
   - first:
       213: 3717080603182258177
-    second: sprint_29
+    second: sprint_se_06
   - first:
       213: 602933499984157069
-    second: sprint_30
+    second: sprint_sw_01
   - first:
       213: 5939718895154650229
-    second: sprint_31
+    second: sprint_sw_02
   - first:
       213: 3125638279033697887
-    second: sprint_32
+    second: sprint_sw_03
   - first:
       213: -9099789590774931927
-    second: sprint_33
+    second: sprint_sw_04
   - first:
       213: -4128065553956160028
-    second: sprint_34
+    second: sprint_sw_05
   - first:
       213: -4146824714029406555
-    second: sprint_35
+    second: sprint_sw_06
   - first:
       213: 2266114990895882244
-    second: sprint_36
+    second: sprint_nw_01
   - first:
       213: 7090256795600333901
-    second: sprint_37
+    second: sprint_nw_02
   - first:
       213: -3980026209149987873
-    second: sprint_38
+    second: sprint_nw_03
   - first:
       213: -7571895611623492994
-    second: sprint_39
+    second: sprint_nw_04
   - first:
       213: 3862253845824795902
-    second: sprint_40
+    second: sprint_nw_05
   - first:
       213: 5324619113483581917
-    second: sprint_41
+    second: sprint_nw_06
   - first:
       213: 3661668455100760445
-    second: sprint_42
+    second: sprint_ne_01
   - first:
       213: 3235467476252597228
-    second: sprint_43
+    second: sprint_ne_02
   - first:
       213: -6547932277516735400
-    second: sprint_44
+    second: sprint_ne_03
   - first:
       213: 3438014594438977288
-    second: sprint_45
+    second: sprint_ne_04
   - first:
       213: 5711180002159104830
-    second: sprint_46
+    second: sprint_ne_05
   - first:
       213: -3786085723019859060
-    second: sprint_47
+    second: sprint_ne_06
+  - first:
+      213: -635660619222873508
+    second: Player_Sprint_0
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -319,7 +322,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -328,12 +331,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -345,6 +348,7 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -382,19 +386,31 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sprint_0
+      name: sprint_e_01
       rect:
         serializedVersion: 2
         x: 0
         y: 112
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -407,15 +423,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprint_1
+      name: sprint_e_02
       rect:
         serializedVersion: 2
         x: 16
         y: 112
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -428,15 +444,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprint_2
+      name: sprint_e_03
       rect:
         serializedVersion: 2
         x: 32
         y: 112
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -449,15 +465,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprint_3
+      name: sprint_e_04
       rect:
         serializedVersion: 2
         x: 48
         y: 112
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -470,15 +486,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprint_4
+      name: sprint_e_05
       rect:
         serializedVersion: 2
         x: 64
         y: 112
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -491,15 +507,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprint_5
+      name: sprint_e_06
       rect:
         serializedVersion: 2
         x: 80
         y: 112
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -512,15 +528,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprint_6
+      name: sprint_n_01
       rect:
         serializedVersion: 2
         x: 0
         y: 96
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -533,15 +549,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprint_7
+      name: sprint_n_02
       rect:
         serializedVersion: 2
         x: 16
         y: 96
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -554,15 +570,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprint_8
+      name: sprint_n_03
       rect:
         serializedVersion: 2
         x: 32
         y: 96
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -575,15 +591,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprint_9
+      name: sprint_n_04
       rect:
         serializedVersion: 2
         x: 48
         y: 96
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -596,15 +612,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprint_10
+      name: sprint_n_05
       rect:
         serializedVersion: 2
         x: 64
         y: 96
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -617,15 +633,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprint_11
+      name: sprint_n_06
       rect:
         serializedVersion: 2
         x: 80
         y: 96
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -638,15 +654,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprint_12
+      name: sprint_w_01
       rect:
         serializedVersion: 2
         x: 0
         y: 80
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -659,15 +675,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprint_13
+      name: sprint_w_02
       rect:
         serializedVersion: 2
         x: 16
         y: 80
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -680,15 +696,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprint_14
+      name: sprint_w_03
       rect:
         serializedVersion: 2
         x: 32
         y: 80
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -701,15 +717,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprint_15
+      name: sprint_w_04
       rect:
         serializedVersion: 2
         x: 48
         y: 80
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -722,15 +738,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprint_16
+      name: sprint_w_05
       rect:
         serializedVersion: 2
         x: 64
         y: 80
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -743,15 +759,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprint_17
+      name: sprint_w_06
       rect:
         serializedVersion: 2
         x: 80
         y: 80
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -764,15 +780,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprint_18
+      name: sprint_s_01
       rect:
         serializedVersion: 2
         x: 0
         y: 64
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -785,15 +801,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprint_19
+      name: sprint_s_02
       rect:
         serializedVersion: 2
         x: 16
         y: 64
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -806,15 +822,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprint_20
+      name: sprint_s_03
       rect:
         serializedVersion: 2
         x: 32
         y: 64
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -827,15 +843,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprint_21
+      name: sprint_s_04
       rect:
         serializedVersion: 2
         x: 48
         y: 64
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -848,15 +864,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprint_22
+      name: sprint_s_05
       rect:
         serializedVersion: 2
         x: 64
         y: 64
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -869,15 +885,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprint_23
+      name: sprint_s_06
       rect:
         serializedVersion: 2
         x: 80
         y: 64
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -890,15 +906,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprint_24
+      name: sprint_se_01
       rect:
         serializedVersion: 2
         x: 0
         y: 48
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -911,15 +927,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprint_25
+      name: sprint_se_02
       rect:
         serializedVersion: 2
         x: 16
         y: 48
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -932,15 +948,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprint_26
+      name: sprint_se_03
       rect:
         serializedVersion: 2
         x: 32
         y: 48
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -953,15 +969,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprint_27
+      name: sprint_se_04
       rect:
         serializedVersion: 2
         x: 48
         y: 48
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -974,15 +990,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprint_28
+      name: sprint_se_05
       rect:
         serializedVersion: 2
         x: 64
         y: 48
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -995,15 +1011,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprint_29
+      name: sprint_se_06
       rect:
         serializedVersion: 2
         x: 80
         y: 48
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1016,15 +1032,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprint_30
+      name: sprint_sw_01
       rect:
         serializedVersion: 2
         x: 0
         y: 32
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1037,15 +1053,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprint_31
+      name: sprint_sw_02
       rect:
         serializedVersion: 2
         x: 16
         y: 32
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1058,15 +1074,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprint_32
+      name: sprint_sw_03
       rect:
         serializedVersion: 2
         x: 32
         y: 32
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1079,15 +1095,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprint_33
+      name: sprint_sw_04
       rect:
         serializedVersion: 2
         x: 48
         y: 32
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1100,15 +1116,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprint_34
+      name: sprint_sw_05
       rect:
         serializedVersion: 2
         x: 64
         y: 32
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1121,15 +1137,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprint_35
+      name: sprint_sw_06
       rect:
         serializedVersion: 2
         x: 80
         y: 32
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1142,15 +1158,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprint_36
+      name: sprint_nw_01
       rect:
         serializedVersion: 2
         x: 0
         y: 16
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1163,15 +1179,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprint_37
+      name: sprint_nw_02
       rect:
         serializedVersion: 2
         x: 16
         y: 16
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1184,15 +1200,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprint_38
+      name: sprint_nw_03
       rect:
         serializedVersion: 2
         x: 32
         y: 16
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1205,15 +1221,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprint_39
+      name: sprint_nw_04
       rect:
         serializedVersion: 2
         x: 48
         y: 16
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1226,15 +1242,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprint_40
+      name: sprint_nw_05
       rect:
         serializedVersion: 2
         x: 64
         y: 16
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1247,15 +1263,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprint_41
+      name: sprint_nw_06
       rect:
         serializedVersion: 2
         x: 80
         y: 16
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1268,15 +1284,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprint_42
+      name: sprint_ne_01
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1289,15 +1305,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprint_43
+      name: sprint_ne_02
       rect:
         serializedVersion: 2
         x: 16
         y: 0
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1310,15 +1326,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprint_44
+      name: sprint_ne_03
       rect:
         serializedVersion: 2
         x: 32
         y: 0
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1331,15 +1347,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprint_45
+      name: sprint_ne_04
       rect:
         serializedVersion: 2
         x: 48
         y: 0
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1352,15 +1368,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprint_46
+      name: sprint_ne_05
       rect:
         serializedVersion: 2
         x: 64
         y: 0
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1373,15 +1389,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprint_47
+      name: sprint_ne_06
       rect:
         serializedVersion: 2
         x: 80
         y: 0
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1389,6 +1405,27 @@ TextureImporter:
       bones: []
       spriteID: 791e84f60662cd647a8775a08a61dd60
       internalID: -3786085723019859060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Sprint_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 96
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5a0481e80ead27f0800000000000000
+      internalID: -635660619222873508
       vertices: []
       indices: 
       edges: []

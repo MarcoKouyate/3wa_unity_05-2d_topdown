@@ -14,6 +14,7 @@ namespace TopDown {
         {
             base.OnEnter(playerMovement);
             playerMovement.Animation.UpdateDirection();
+            playerMovement.Animation.Idle();
             playerMovement.state = MovementStateEnum.Idle;
             return true;
         }
