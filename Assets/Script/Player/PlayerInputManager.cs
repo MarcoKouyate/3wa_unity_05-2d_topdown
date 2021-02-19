@@ -7,6 +7,7 @@ namespace TopDown {
     {
 
         #region Show In Inspector
+        [Range(0f, 1f)]
         [SerializeField] private float _threshold;
         #endregion
 
