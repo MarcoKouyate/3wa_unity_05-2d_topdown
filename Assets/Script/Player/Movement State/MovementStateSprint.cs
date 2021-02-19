@@ -19,16 +19,17 @@ namespace TopDown {
         {
             base.OnEnter(playerMovement);
             playerMovement.state = MovementStateEnum.Sprint;
-            _speed = playerMovement.RunningSpeed;
             return true;
         }
 
         public override void OnUpdate(PlayerMovement playerMovement)
         {
 
+            playerMovement.Controller.Run();
+
             if (PlayerInputManager.Instance.ReleaseDash)
             {
-                if(playerMovement.Rigidbody.velocity.sqrMagnitude != 0)
+                if(playerMovement.Controller.IsMoving())
                 {
                     playerMovement.TransitionTo(_walkState);
                 } else
@@ -38,18 +39,6 @@ namespace TopDown {
 
             }
         }
-
-        public override void OnFixedUpdate(PlayerMovement playerMovement)
-        {
-            playerMovement.MoveTowardsDirection(PlayerInputManager.Instance.Direction, _speed);
-        }
-
-        #endregion
-
-
-        #region Private Variables
-        float _speed;
-
         #endregion
     }
 }

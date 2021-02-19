@@ -217,7 +217,7 @@ GameObject:
   - component: {fileID: 870309538}
   - component: {fileID: 870309537}
   m_Layer: 0
-  m_Name: Player_Idle_down
+  m_Name: Player Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -304,11 +304,10 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 403000699
+  m_SortingLayer: 1
   m_SortingOrder: 0
-  m_Sprite: {fileID: 4245344421344247407, guid: 7ea453904cf20934db5273780c60942e,
-    type: 3}
+  m_Sprite: {fileID: 744742953562915497, guid: 3c756eded0329a843bced74a5cd058eb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -330,6 +329,7 @@ GameObject:
   - component: {fileID: 1317072604}
   - component: {fileID: 1317072606}
   - component: {fileID: 1317072605}
+  - component: {fileID: 1317072607}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -365,11 +365,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   state: 0
-  _walkingSpeed: 1
-  _runningSpeed: 4
-  _dashSpeed: 20
-  _dashDuration: 0.1
+  _dashDuration: 1
   _startingState: {fileID: 11400000, guid: 9f9a487db020b494d8dd10b67feb3ac7, type: 2}
+  _animation: {fileID: 870309538}
 --- !u!50 &1317072606
 Rigidbody2D:
   serializedVersion: 4
@@ -391,6 +389,22 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1317072607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1317072603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd1b97774b65b546b3e4ef60cb71651, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _walkingSpeed: 1
+  _runningSpeed: 2
+  _dashSpeed: 3
+  _stopThreshold: 0.1
 --- !u!1 &1738348430
 GameObject:
   m_ObjectHideFlags: 0

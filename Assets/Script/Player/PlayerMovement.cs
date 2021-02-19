@@ -1,28 +1,25 @@
 ﻿using UnityEngine;
 
 namespace TopDown {
-    [RequireComponent(typeof(Rigidbody2D))]
+    [RequireComponent(typeof(PlayerMovementController))]
     public class PlayerMovement : MonoBehaviour
     {
         #region Show In Inspector
 
         public MovementStateEnum state;
-        [SerializeField] private float _walkingSpeed;
-        [SerializeField] private float _runningSpeed;
-        [SerializeField] private float _dashSpeed;
+
         [SerializeField] private float _dashDuration;
-        [SerializeField] MovementState _startingState;
+        [SerializeField] private MovementState _startingState;
+        [SerializeField] private PlayerAnimation _animation;
 
         #endregion
 
 
         #region Properties
 
-        public Rigidbody2D Rigidbody{ get => _rigidbody; }
-        public float WalkingSpeed { get => _walkingSpeed; }
-        public float RunningSpeed { get => _runningSpeed; }
-        public float DashSpeed { get => _dashSpeed; }
         public float DashDuration { get => _dashDuration; }
+        public PlayerAnimation Animation { get => _animation; }
+        public PlayerMovementController Controller { get => _controller; }
 
         #endregion
 
@@ -45,8 +42,8 @@ namespace TopDown {
         #region Unity Cycle
         private void Awake()
         {
-            _rigidbody = GetComponent<Rigidbody2D>();
             SetMovementState(_startingState);
+            _controller = GetComponent<PlayerMovementController>();
         }
 
         private void Update()
@@ -60,16 +57,10 @@ namespace TopDown {
         }
         #endregion
 
-        public void MoveTowardsDirection(Vector2 direction, float speed)
-        {
-            Vector2 velocity = direction * speed * Time.fixedDeltaTime * 100;
-           _rigidbody.velocity = velocity;
-        }
-
 
         #region Private Variables
         private MovementState _movementState;
-        private Rigidbody2D _rigidbody;
+        private PlayerMovementController _controller;
         #endregion
     }
 }

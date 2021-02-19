@@ -16,11 +16,13 @@ namespace TopDown {
         #region State Cycle
         public override bool OnEnter(PlayerMovement playerMovement)
         {
+            base.OnEnter(playerMovement);
             playerMovement.state = MovementStateEnum.Dash;
+            playerMovement.Animation.Roll();
+            playerMovement.Animation.UpdateDirection();
+            playerMovement.Controller.Dash();
             _endTime = Time.time + playerMovement.DashDuration;
-            _speed = playerMovement.DashSpeed;
             _hasReleasedButton = false;
-
             return true;
         }
 
@@ -35,16 +37,11 @@ namespace TopDown {
             }
         }
 
-        public override void OnFixedUpdate(PlayerMovement playerMovement)
-        {
-            playerMovement.Rigidbody.velocity = PlayerInputManager.Instance.LastDirection * _speed * Time.fixedDeltaTime * 100;
-        }
-
 
         public override bool OnExit(PlayerMovement playerMovement)
         {
             base.OnExit(playerMovement);
-            playerMovement.Rigidbody.velocity = Vector2.zero;
+            playerMovement.Controller.Stop();
             return true;
         }
         #endregion
@@ -72,7 +69,6 @@ namespace TopDown {
 
         #region Private Variables
         private float _endTime;
-        private float _speed;
         private bool _hasReleasedButton;
         #endregion
 

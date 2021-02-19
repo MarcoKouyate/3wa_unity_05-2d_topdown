@@ -9,11 +9,6 @@ namespace TopDown {
             _animator = GetComponent<Animator>();
         }
 
-        public void Update()
-        {
-            Set2DInput(PlayerInputManager.Instance.LastDirection);
-        }
-
         public void SetHorizontalInput(float amount)
         {
             _animator.SetFloat("Horizontal", amount);
@@ -31,6 +26,15 @@ namespace TopDown {
             SetVerticalInput(input.y);
         }
 
+        public void Roll()
+        {
+            _animator.SetTrigger("Roll");
+        }
+
+        public void UpdateDirection()
+        {
+            Set2DInput(PlayerInputManager.Instance.LastDirection);
+        }
 
 
         private Animator _animator;
