@@ -49,7 +49,6 @@ namespace TopDown {
         public void UpdateDirection()
         {
             Set2DInput(PlayerInputManager.Instance.LastDirection);
-            
         }
 
         private int _walkId = Animator.StringToHash("Walk");
