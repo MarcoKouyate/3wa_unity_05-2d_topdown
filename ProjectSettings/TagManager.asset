@@ -16,7 +16,7 @@ TagManager:
   - Feet
   - Background
   - Player
-  - 
+  - Obstacle
   - 
   - 
   - 
@@ -46,4 +46,7 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 403000699
+    locked: 0
+  - name: Foreground
+    uniqueID: 259767069
     locked: 0
