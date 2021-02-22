@@ -4,150 +4,150 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -1882347247711912902
-    second: run_0
+    second: Player_walk_e_01
   - first:
       213: 7439426567979852956
-    second: run_1
+    second: Player_walk_e_02
   - first:
       213: -2673560216460186399
-    second: run_2
+    second: Player_walk_e_03
   - first:
       213: -5822559823783948592
-    second: run_3
+    second: Player_walk_e_04
   - first:
       213: -4997308686002322044
-    second: run_4
+    second: Player_walk_e_05
   - first:
       213: -7808277857516635856
-    second: run_5
+    second: Player_walk_e_06
   - first:
       213: 2102408166121253023
-    second: run_6
+    second: Player_walk_n_01
   - first:
       213: -828024806730890176
-    second: run_7
+    second: Player_walk_n_02
   - first:
       213: 7319402618797355783
-    second: run_8
+    second: Player_walk_n_03
   - first:
       213: -5877058464083753606
-    second: run_9
+    second: Player_walk_n_04
   - first:
       213: 3003789169655790119
-    second: run_10
+    second: Player_walk_n_05
   - first:
       213: -6092536456907055262
-    second: run_11
+    second: Player_walk_n_06
   - first:
       213: -1445699202850245649
-    second: run_12
+    second: Player_walk_w_01
   - first:
       213: 907984458040544535
-    second: run_13
+    second: Player_walk_w_02
   - first:
       213: -4766322925986528201
-    second: run_14
+    second: Player_walk_w_03
   - first:
       213: -6854862752865071187
-    second: run_15
+    second: Player_walk_w_04
   - first:
       213: 3879836991898358431
-    second: run_16
+    second: Player_walk_w_05
   - first:
       213: 9202457461379119610
-    second: run_17
+    second: Player_walk_w_06
   - first:
       213: -1754890470619349162
-    second: run_18
+    second: Player_walk_s_01
   - first:
       213: 648780840753495446
-    second: run_19
+    second: Player_walk_s_02
   - first:
       213: 8627970810205435543
-    second: run_20
+    second: Player_walk_s_03
   - first:
       213: -7909159425575924447
-    second: run_21
+    second: Player_walk_s_04
   - first:
       213: 7513681151204646855
-    second: run_22
+    second: Player_walk_s_05
   - first:
       213: -7229719848496543997
-    second: run_23
+    second: Player_walk_s_06
   - first:
       213: -1095120907898008938
-    second: run_24
+    second: Player_walk_se_01
   - first:
       213: 5009934392725751624
-    second: run_25
+    second: Player_walk_se_02
   - first:
       213: -4387630390007428758
-    second: run_26
+    second: Player_walk_se_03
   - first:
       213: 2200832529092513949
-    second: run_27
+    second: Player_walk_se_04
   - first:
       213: -8813461055207606912
-    second: run_28
+    second: Player_walk_se_05
   - first:
       213: -3092210466297149792
-    second: run_29
+    second: Player_walk_se_06
   - first:
       213: 2864760106744397359
-    second: run_30
+    second: Player_walk_sw_01
   - first:
       213: 6989817996749610671
-    second: run_31
+    second: Player_walk_sw_02
   - first:
       213: -5362260715865855533
-    second: run_32
+    second: Player_walk_sw_03
   - first:
       213: 8425027539696852754
-    second: run_33
+    second: Player_walk_sw_04
   - first:
       213: 9008435307391143687
-    second: run_34
+    second: Player_walk_sw_05
   - first:
       213: -5763861960194787239
-    second: run_35
+    second: Player_walk_sw_06
   - first:
       213: 6224300156357728231
-    second: run_36
+    second: Player_walk_nw_01
   - first:
       213: 32177205922314166
-    second: run_37
+    second: Player_walk_nw_02
   - first:
       213: -1015690269202773086
-    second: run_38
+    second: Player_walk_nw_03
   - first:
       213: -4498452775212361763
-    second: run_39
+    second: Player_walk_nw_04
   - first:
       213: -2746718700997727627
-    second: run_40
+    second: Player_walk_nw_05
   - first:
       213: -3973361637204257902
-    second: run_41
+    second: Player_walk_nw_06
   - first:
       213: 946209580811554799
-    second: run_42
+    second: Player_walk_ne_01
   - first:
       213: -9126525504771559597
-    second: run_43
+    second: Player_walk_ne_02
   - first:
       213: -5316219330477369426
-    second: run_44
+    second: Player_walk_ne_03
   - first:
       213: 6478356788283350345
-    second: run_45
+    second: Player_walk_ne_04
   - first:
       213: 8376086430841280738
-    second: run_46
+    second: Player_walk_ne_05
   - first:
       213: 4361805695612429121
-    second: run_47
+    second: Player_walk_ne_06
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -175,7 +175,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -184,12 +184,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -201,6 +201,7 @@ TextureImporter:
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -238,19 +239,31 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: run_0
+      name: Player_walk_e_01
       rect:
         serializedVersion: 2
         x: 0
         y: 112
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -263,15 +276,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run_1
+      name: Player_walk_e_02
       rect:
         serializedVersion: 2
         x: 16
         y: 112
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -284,15 +297,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run_2
+      name: Player_walk_e_03
       rect:
         serializedVersion: 2
         x: 32
         y: 112
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -305,15 +318,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run_3
+      name: Player_walk_e_04
       rect:
         serializedVersion: 2
         x: 48
         y: 112
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -326,15 +339,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run_4
+      name: Player_walk_e_05
       rect:
         serializedVersion: 2
         x: 64
         y: 112
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -347,15 +360,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run_5
+      name: Player_walk_e_06
       rect:
         serializedVersion: 2
         x: 80
         y: 112
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -368,15 +381,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run_6
+      name: Player_walk_n_01
       rect:
         serializedVersion: 2
         x: 0
         y: 96
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -389,15 +402,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run_7
+      name: Player_walk_n_02
       rect:
         serializedVersion: 2
         x: 16
         y: 96
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -410,15 +423,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run_8
+      name: Player_walk_n_03
       rect:
         serializedVersion: 2
         x: 32
         y: 96
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -431,15 +444,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run_9
+      name: Player_walk_n_04
       rect:
         serializedVersion: 2
         x: 48
         y: 96
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -452,15 +465,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run_10
+      name: Player_walk_n_05
       rect:
         serializedVersion: 2
         x: 64
         y: 96
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -473,15 +486,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run_11
+      name: Player_walk_n_06
       rect:
         serializedVersion: 2
         x: 80
         y: 96
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -494,15 +507,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run_12
+      name: Player_walk_w_01
       rect:
         serializedVersion: 2
         x: 0
         y: 80
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -515,15 +528,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run_13
+      name: Player_walk_w_02
       rect:
         serializedVersion: 2
         x: 16
         y: 80
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -536,15 +549,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run_14
+      name: Player_walk_w_03
       rect:
         serializedVersion: 2
         x: 32
         y: 80
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -557,15 +570,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run_15
+      name: Player_walk_w_04
       rect:
         serializedVersion: 2
         x: 48
         y: 80
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -578,15 +591,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run_16
+      name: Player_walk_w_05
       rect:
         serializedVersion: 2
         x: 64
         y: 80
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -599,15 +612,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run_17
+      name: Player_walk_w_06
       rect:
         serializedVersion: 2
         x: 80
         y: 80
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -620,15 +633,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run_18
+      name: Player_walk_s_01
       rect:
         serializedVersion: 2
         x: 0
         y: 64
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -641,15 +654,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run_19
+      name: Player_walk_s_02
       rect:
         serializedVersion: 2
         x: 16
         y: 64
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -662,15 +675,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run_20
+      name: Player_walk_s_03
       rect:
         serializedVersion: 2
         x: 32
         y: 64
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -683,15 +696,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run_21
+      name: Player_walk_s_04
       rect:
         serializedVersion: 2
         x: 48
         y: 64
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -704,15 +717,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run_22
+      name: Player_walk_s_05
       rect:
         serializedVersion: 2
         x: 64
         y: 64
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -725,15 +738,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run_23
+      name: Player_walk_s_06
       rect:
         serializedVersion: 2
         x: 80
         y: 64
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -746,15 +759,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run_24
+      name: Player_walk_se_01
       rect:
         serializedVersion: 2
         x: 0
         y: 48
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -767,15 +780,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run_25
+      name: Player_walk_se_02
       rect:
         serializedVersion: 2
         x: 16
         y: 48
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -788,15 +801,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run_26
+      name: Player_walk_se_03
       rect:
         serializedVersion: 2
         x: 32
         y: 48
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -809,15 +822,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run_27
+      name: Player_walk_se_04
       rect:
         serializedVersion: 2
         x: 48
         y: 48
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -830,15 +843,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run_28
+      name: Player_walk_se_05
       rect:
         serializedVersion: 2
         x: 64
         y: 48
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -851,15 +864,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run_29
+      name: Player_walk_se_06
       rect:
         serializedVersion: 2
         x: 80
         y: 48
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -872,15 +885,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run_30
+      name: Player_walk_sw_01
       rect:
         serializedVersion: 2
         x: 0
         y: 32
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -893,15 +906,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run_31
+      name: Player_walk_sw_02
       rect:
         serializedVersion: 2
         x: 16
         y: 32
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -914,15 +927,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run_32
+      name: Player_walk_sw_03
       rect:
         serializedVersion: 2
         x: 32
         y: 32
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -935,15 +948,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run_33
+      name: Player_walk_sw_04
       rect:
         serializedVersion: 2
         x: 48
         y: 32
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -956,15 +969,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run_34
+      name: Player_walk_sw_05
       rect:
         serializedVersion: 2
         x: 64
         y: 32
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -977,15 +990,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run_35
+      name: Player_walk_sw_06
       rect:
         serializedVersion: 2
         x: 80
         y: 32
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -998,15 +1011,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run_36
+      name: Player_walk_nw_01
       rect:
         serializedVersion: 2
         x: 0
         y: 16
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1019,15 +1032,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run_37
+      name: Player_walk_nw_02
       rect:
         serializedVersion: 2
         x: 16
         y: 16
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1040,15 +1053,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run_38
+      name: Player_walk_nw_03
       rect:
         serializedVersion: 2
         x: 32
         y: 16
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1061,15 +1074,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run_39
+      name: Player_walk_nw_04
       rect:
         serializedVersion: 2
         x: 48
         y: 16
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1082,15 +1095,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run_40
+      name: Player_walk_nw_05
       rect:
         serializedVersion: 2
         x: 64
         y: 16
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1103,15 +1116,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run_41
+      name: Player_walk_nw_06
       rect:
         serializedVersion: 2
         x: 80
         y: 16
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1124,15 +1137,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run_42
+      name: Player_walk_ne_01
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1145,15 +1158,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run_43
+      name: Player_walk_ne_02
       rect:
         serializedVersion: 2
         x: 16
         y: 0
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1166,15 +1179,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run_44
+      name: Player_walk_ne_03
       rect:
         serializedVersion: 2
         x: 32
         y: 0
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1187,15 +1200,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run_45
+      name: Player_walk_ne_04
       rect:
         serializedVersion: 2
         x: 48
         y: 0
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1208,15 +1221,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run_46
+      name: Player_walk_ne_05
       rect:
         serializedVersion: 2
         x: 64
         y: 0
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1229,15 +1242,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: run_47
+      name: Player_walk_ne_06
       rect:
         serializedVersion: 2
         x: 80
         y: 0
         width: 16
         height: 16
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
